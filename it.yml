@@ -1,0 +1,426 @@
+it:
+  hello: 'Ciao'
+  bookings:
+    created: "Creato"
+    tech: "tecnico"
+    booking: "prenotazione"
+    number: "NO"
+    state: "Stato"
+    active: "Attivo"
+    not_active: "Inattivo"
+    car: "Auto"
+    start: "Inizio noleggio"
+    end: "Noleggio e"
+    days: "Giorni"
+    checkin: "Check-in"
+    checkout: "Check-out"
+    equipment: "Attrezzatura extra"
+    baby_chair: "Seggiolino per bambini"
+    booster: "Booster"
+    price: "Prezzo al giorno"
+    total_for_rent: "Totale per noleggio"
+    total_for_time: "Tempo extra"
+    total_for_insurance: "Assicurazione"
+    total_for_drivers: "Autisti aggiuntivi"
+    total_for_equipment: "Attrezzatura"
+    total_for_delivery: "Consegna"
+    total_for_delivery_end: "Check-out"
+    total_for_other: "Altro"
+    total: "Totale"
+    total_no_deposit: "Totale senza deposito"
+    deposit: "Deposito"
+    no_data: "Non tutti i dati sono stati compilati"
+    new_booking_in: "Nuova prenotazione in"
+    duplicate_data: "Dati duplicati"
+    booking_number: "Numero di prenotazione"
+    checkin_place: "Luogo check-in"
+    checkout_place: "Luogo check-out"
+    navigator: "Navigatore"
+    application_for_booking: "Domanda di prenotazione"
+    accept_application_for_booking: "Accetta prenotazione"
+    accept_application_for_booking_text_html: "La tua richiesta di prenotazione La prenotazione dell'auto è stata confermata. Ti aspettiamo all'orario stabilito, %{start_date}. In caso di eventuali modifiche, si prega di informarci in anticipo. In caso di forza maggiore è possibile sostituirlo con un'auto di almeno una classe alle stesse condizioni allo stesso prezzo. Chiediamo gentilmente che non ci siano intoppi, chiamaci al %{phone} un'ora prima dell'orario di noleggio e facci sapere che verrai da noi."
+    user_rejection_title: "La tua richiesta di prenotazione è stata respinta"
+    user_rejection_title_2: "La tua richiesta di prenotazione per l'autonoleggio %{company_name} è stata respinta"
+    user_rejection_few_days_html: "Sfortunatamente, la tua richiesta di prenotazione Siamo spiacenti, non possiamo accettare la tua richiesta di prenotazione, poiché secondo i nostri termini e condizioni, riserviamo l'auto in anticipo solo per prenotazioni di 5 o più giorni (per alcuni modelli - 3 giorni). Se desideri noleggiare un'auto per meno giorni, puoi prenotarla telefonicamente con un giorno di anticipo, in base alla disponibilità."
+    user_rejection_not_cars_html: "Sfortunatamente, la tua domanda di prenotazione Siamo spiacenti, tutte le auto sono già occupate per questo periodo. Se non riesci a trovare nulla di adatto, puoi provare ad applicare il giorno prima, forse qualcosa sarà gratuito."
+  clients:
+    name: "Nome"
+    phone: "Telefono"
+    not_send_email: "Non vuoi ricevere questi messaggi?"
+    unsubscribe: "Annulla l'iscrizione"
+    passport: "Carta d'identità"
+    driver_license: "Patente di guida"
+  custom:
+    car_hire: "Società di autonoleggio"
+    best_regarts: "Cordiali saluti, servizio di noleggio"
+    best_regarts_car_hire: "Cordiali saluti, autonoleggio"
+    enter: "Login"
+    subject_new_booking: "Nuova prenotazione"
+    hello: 'Ciao'
+    best_regarts_2: 'Grazie per averci contattato! Saluti, compagnia di autonoleggio'
+    best_regarts_3: 'Cordiali saluti, compagnia di autonoleggio'
+    docs_from: 'Documenti della compagnia di autonoleggio'
+    docs_in_attachment: 'Documenti allegati'
+    site: 'Il nostro sito web'
+  booking_messages:
+    start_email_title: "Avviso inizio prenotazione"
+    end_email_title: "Avviso di fine prenotazione"
+    reminder_review_title: "Feedback sui nostri servizi"
+  fines:
+    fines_pay_reminder_title: "Multe durante il noleggio"
+    gibdd: "Bene"
+  reviews:
+    reminder_review: "Feedback sulla compagnia di autonoleggio"
+    reminder_review_h1: "Feedback sul nostro servizio"
+    reminder_review_text_html: "Qualche tempo fa hai utilizzato una società di autonoleggio %{company_name}. Vi ringraziamo per aver scelto la nostra azienda. Ci impegniamo costantemente per migliorare la qualità dei nostri servizi e speriamo che tu sia soddisfatto. Se hai commenti, puoi scrivere in un messaggio di risposta e prenderemo provvedimenti correttivi. Se ti è piaciuto tutto, ti saremo molto grati per il tuo feedback. Puoi inviarlo utilizzando i link seguenti:"
+    reminder_review_text_2: "o qualsiasi altro sito di recensioni in cui di solito scrivi recensioni"
+    reminder_review_text_3: "Ricordiamo che sono previsti sconti per i clienti abituali. Se uno dei tuoi amici ti contatta su tua raccomandazione, gli faremo anche uno sconto.."
+  companies:
+    balance_add_title: "Il saldo è stato aumentato"
+    balance_add_h1: "Notifica di ricarica del saldo nel servizio"
+    balance_add_text: "Il tuo saldo è stato ricaricato con successo di %{sum} %{currency}. Grazie per aver utilizzato il nostro servizio!"
+    current_balance: "Saldo attuale"
+    reminder_balance: "Notifica di ricarica saldo"
+    reminder_rebill: "Promemoria di addebito automatico"
+    reminder_rebill_text: "Ti ricordiamo l'attuale addebito dei fondi sulla tua carta per l'accredito sul saldo nel servizio RentProg. La prossima volta che addebiterai il tuo saldo, raggiungerai la soglia configurata: %{rebill_limit} %{currency}. La cancellazione avverrà entro 24 ore. Importo del pagamento: %{payment_sum} %{currency}. Assicurati di avere l'importo corretto sulla tua carta."
+    rebill_page: "Gestione cancellazioni"
+    rebill_sum: "Importo cancellato"
+    reminder_balance_h1: "Notifica di ricarica del saldo nel servizio"
+    reminder_balance_text: "Al momento nel tuo account ci sono %{active_cars_size} auto attive, il prezzo di utilizzo del servizio per un'auto attiva al giorno: %{car_cost} %{currency}, saldo attuale: %{balance} %{currency}. Come promemoria, i prelievi vengono effettuati quotidianamente ea questo punto è sufficiente "
+    reminder_balance_days_5: "5 giorni"
+    reminder_balance_days_3: "3 giorni"
+    reminder_balance_days_1: "1 giorno"
+    days: "giorni"
+    reminder_balance_text_2: "ulteriori funzionalità saranno limitate"
+    reminder_balance_text_3: "Si prega di ricaricare il saldo"
+    add_payment: "Riempire"
+    reminder_balance_tariff_end_date: "Data di inizio addebito: %{date}."
+    balance_warn: "Se il saldo scende al di sotto di %{min_sum} %{currency}, disabiliteremo completamente la funzionalità del sistema, tienilo a mente."
+    reminder_balance_text_4: "Buona fortuna! Grazie per aver utilizzato il nostro servizio"
+    reminder_balance_text_5: "Siamo spiacenti, ma l'accesso alla funzionalità RentProg è stato completamente limitato."
+    balance_warn_2: "Se durante il mese il saldo non viene ricaricato, tutti i dati verranno cancellati senza possibilità di recupero."
+    for_all_title: "Messaggio da RentProg"
+    start_pay: "Ti sei iscritto a RentProg come cliente a pagamento"
+    start_pay_title: "Notifica del passaggio a una tariffa pagata su RentProg"
+    start_pay_text: "Hai aggiunto la sedicesima macchina, tra una settimana inizieremo a addebitare l'utilizzo di RentProg secondo"
+    start_pay_text_2: "Si prega di ricaricare il saldo in modo che non ci siano problemi con l'accesso."
+    tariffs: "tariffe"
+    best_regarts: "Grazie per aver utilizzato il nostro servizio!"
+    deactivate: "Notifica di disattivazione del servizio RentProg"
+    deactivate_title: "Notifica di disattivazione del servizio RentProg"
+    deactivate_text: "A causa di inattività per più di un mese, abbiamo disattivato la tua azienda nel servizio RentProg. Dopo sei mesi, tutti i dati verranno cancellati senza possibilità di recupero. Effettua il login se desideri continuare ad accedere ai tuoi dati."
+    whatsapp_instance_created_title: "Whatsapp connesso correttamente"
+    whatsapp_instance_authorized_title: "Whatsapp autorizzato con successo"
+    whatsapp_instance_created_text: "L'istanza di Whatsapp è stata creata correttamente. Dopo alcuni minuti, il pulsante di autorizzazione diventerà disponibile. Cliccaci sopra e accedi a Whatsapp."
+    whatsapp_instance_balanced_text: "%{sum} %{currency} detratto dal tuo saldo giornaliero utilizzando Whatsapp. Il saldo attuale è %{new_balance} %{currency}."
+    whatsapp_not_enough_title: "Equilibrio insufficiente"
+    whatsapp_not_enough_text: "Il tuo saldo non ha fondi sufficienti per pagare Whatsapp. WhatsApp è disattivato. Ricarica il tuo saldo e ricollega WhatsApp."
+    whatsapp_instance_authorized_text: "Whatsapp autorizzato con successo. Ora puoi usare Whatsapp in RentProg."
+    reminder_balance_whatsapp: "Whatsapp è disabilitato in RentProg"
+    top_up_balance_1: "Il rifornimento del saldo tramite %{sum} %{currency} ha avuto esito positivo"
+    auto_archived_booking: "Le prenotazioni %{archived_bookings_ids} sono state archiviate automaticamente perché sono inattive e la data di scadenza del noleggio è superiore a tre mesi. Controllali e ripristinali se necessario."
+    client_not_have_card_title: "Il cliente non ha una carta per il pagamento"
+    client_not_have_card_text: "Il cliente non ha una carta per il pagamento. Si prega di chiedere al cliente di aggiungere una carta nel profilo del cliente, altrimenti il pagamento non verrà elaborato."
+    end_trial_text_html: "<p>Il tuo periodo di prova sta per scadere. Ci auguriamo che tu abbia trovato il nostro servizio utile per le tue esigenze.</p><p>Per selezionare il piano tariffario appropriato, segui il seguente link: <a href= '%{tariff_url}'>Piani tariffari</a>.</p><p>Se hai domande o hai bisogno di aiuto, scrivi all'assistenza o rispondi a questa email, siamo sempre felici aiuto.</p>"
+  users:
+    registration: "Registrazione a"
+    registration_worker: "Sei stato registrato come dipendente nel servizio di autonoleggio RentProg"
+    registration_info: "Sei stato aggiunto al servizio RentProg"
+    login: "Il tuo accesso"
+    password: "La tua password"
+    password_set: "Puoi impostare la tua password sulla pagina"
+    lost_password: "Password dimenticata"
+    lost_password_info: "Riceverai un'e-mail con un link per creare una nuova password"
+    reset_password_title: "Reimpostazione della password"
+    reset_password_text_1: "Qualcuno ha richiesto un link per cambiare la tua password. Puoi farlo dal link qui sotto."
+    reset_password_text_2: "Se non l'hai chiesto, ignora questa email."
+    reset_password_text_3: "La tua password non cambierà fino a quando non segui il link qui sotto e ne crei una nuova."
+    reset_password_text_4: "Crea una nuova password"
+    traccar_user_added: "Sei stato aggiunto al servizio di monitoraggio di RentProg."
+    vote_up: "aggiunto 1 punto"
+    vote_down: "detratto 1 punto"
+  messages:
+    admins:
+      title_from_admin: "Messaggio dal team di RentProg"
+  start:
+    title: "SERVIZIO DI GESTIONE NOLEGGIO RENTPROG"
+    text_1_html: "Benvenuto in RentProg, il servizio di gestione del noleggio di auto o qualsiasi altra attrezzatura."
+    text_2_html: "Mi chiamo Ivan, sono un direttore dello sviluppo dei servizi. Se hai domande sull'utilizzo del programma, puoi contattarmi personalmente, sarò felice di aiutarti."
+    text_3_html: "RentProg non richiede installazione ed è controllato da qualsiasi dispositivo con una connessione Internet. Puoi provare il servizio gratuitamente. Ti verrà addebitato un importo una volta che deciderai finalmente di utilizzare il nostro programma e avrai più di 15 macchine nel tuo account. La tariffa Standard include un numero illimitato di dipendenti, un modulo integrato per richiedere noleggi per il tuo sito, supporto completo, tutti gli aggiornamenti e le nuove funzionalità. Puoi trovare altre tariffe sul <a href='https://rentprog.com/it/tariffs'>nostro sito web</a>."
+    text_4_html: "Iniziare è facile: compila il profilo dell'azienda e aggiungi almeno un'auto. Quindi puoi aggiungere clienti ed effettuare prenotazioni."
+    text_5_html: "Subito dopo la registrazione, ti suggeriamo di familiarizzare con la pagina di aiuto <a href='https://rentprog.com/it/categories/8/guides/33' target='_blank'>Quick start</a>. Qui conoscerai le impostazioni necessarie per iniziare a utilizzare il sistema."
+    text_6_html: "Per un'introduzione più dettagliata a tutte le funzioni, ti consigliamo di leggere il <a href='https://rentprog.com/it/helpcenter' target='_blank'>Centro assistenza</a>."
+    text_7_html: "Per qualsiasi domanda, puoi contattare <a href='https://wa.me/79020371133' target='_blank'>WhatsApp</a>, saremo felici di aiutarti. Inoltre, il sistema ha una chat di supporto, puoi porre tutte le domande lì."
+    best_regards_html: "Cordiali saluti, Ivan, direttore dello sviluppo del servizio <a href='https://rentprog.com' target='_blank'>RentProg.com</a>"
+  subjects:
+    user_accept_booking: 'Conferma della prenotazione'
+    user_rejection_not_cars: 'La tua richiesta di prenotazione è stata respinta'
+    user_rejection_few_days: 'La tua richiesta di prenotazione è stata respinta'
+    from_company: 'Messaggio dalla compagnia di autonoleggio'
+    car_hire: 'Società di autonoleggio'
+    add_balance: 'Ricarica saldo RentProg'
+    start_payments: 'Passa a una tariffa a pagamento su RentProg'
+    reminder_balance: 'Per favore, ricarica il saldo RentProg'
+    reminder_balance_off: 'Ricarica immediatamente il tuo saldo RentProg'
+    reset_password: 'Reimpostazione della password su RentProg'
+    new_registration: 'Nuova ristrutturazione a RentProg'
+    start_email: 'Benvenuti in RentProg'
+    insurance_reminder: 'Promemoria di fine assicurazione'
+    diagnostic_card_reminder: 'Promemoria di fine controllo tecnico'
+    traccar_user_created: "L'utente è stato creato nel servizio di monitoraggio di RentProg"
+    auto_archived_booking: 'Le prenotazioni sono state archiviate'
+    custom_notification: 'Promemoria da RentProg'
+    end_trial: 'Fine del periodo di prova'
+  insurance:
+    insurance_reminder: "Ti ricordiamo che l'auto %{car_name}(%{code}) sta per scadere l'assicurazione. Fine: %{end_date}."
+    diagnostic_card_reminder: "Ti ricordiamo che l'auto %{car_name}(%{code}) sta finendo la revisione tecnica. Fine: %{end_date}."
+  controllers:
+    success: 'Successo'
+    employee: 'Dipendente'
+    telegram:
+      new_booking: "Nuova prenotazione #%{id}\nFonte: %{source}\nAuto: %{car_code}\nInizio: %{start_date}\nFine: %{end_date}\nCliente: %{client}\nNumero di telefono: %{phone}"
+      cancel_booking: "Cancellazione prenotazione #%{id}\nFonte: %{source}\nAuto: %{car_code}\nInizio: %{start_date}\nFine: %{end_date}"
+      client_not_have_card: "Il cliente %{client_id} non ha una carta per il pagamento. Chiedi al cliente di aggiungere una carta nel suo profilo, altrimenti il pagamento non verrà elaborato."
+    push:
+      new_booking: "Nuova prenotazione"
+      new_booking_body: "Auto: %{car_code}\nInizio: %{start_date}\nFine: %{end_date}"
+      new_message: "Nuovo messaggio"
+      new_message_body: "Hai ricevuto un nuovo messaggio in RentProg"
+      cancel_booking: "#%{id} annullato"
+      cancel_booking_body: "Auto: %{car_code}\nInizio: %{start_date}\nFine: %{end_date}"
+      make_responsible_title: "Sei stato reso responsabile"
+      make_responsible_body: "Prenotazione #%{id}\nAuto: %{car_code}\nInizio: %{start_date}\nFine: %{end_date}"
+      who_make_responsible: "Chi ha reso responsabile: %{who_make}"
+      maintenance_needed: "Necessita manutenzione"
+    whatsapp:
+      accept_booking: "Ciao, %{first_name}! La tua richiesta di prenotazione #%{id} per il noleggio di %{car_name} è stata accettata. Ti aspetteremo all'ora stabilita, %{start_date}. In caso di eventuali modifiche, si prega di informare in anticipo. %{greeting}"
+      cancel_booking_few_days: "Ciao, %{first_name}! Purtroppo, la tua richiesta di prenotazione #%{id} per il noleggio di %{car_name} è stata respinta. Siamo spiacenti, non possiamo accettare la tua richiesta di prenotazione, poiché secondo i nostri termini e condizioni, riserviamo l'auto in anticipo solo per prenotazioni di 5 o più giorni (per alcuni modelli - 3 giorni). %{greeting}"
+      cancel_booking_not_cars: "Ciao, %{first_name}! Purtroppo, la tua richiesta di prenotazione #%{id} per il noleggio di %{car_name} è stata respinta. Siamo spiacenti, tutte le auto sono già occupate per questo periodo. Se non riesci a trovare nulla di adatto, puoi provare ad applicare il giorno prima, forse qualcosa sarà gratuito. %{greeting}"
+      custom: "Cordiali saluti, compagnia di autonoleggio"
+      errors:
+        email_title: 'Errore Whatsapp in RentProg'
+        number_not_exists: 'Il numero di telefono non esiste su Whatsapp'
+        instance_bad_status: 'Impossibile inviare il messaggio Whatsapp a causa dello stato dell''istanza'
+        instance_bad_response: 'Impossibile inviare il messaggio Whatsapp, controlla lo stato dell''istanza utilizzando il pulsante Autorizza nelle impostazioni dell''azienda -> Notifiche o il numero di telefono non esiste in Whatsapp.'
+        instance_not_authorized: 'L''istanza non è autorizzata. Autorizza l''istanza utilizzando il pulsante Autorizza in Impostazioni azienda -> Notifiche.'
+        instance_blocked: 'Numero di telefono bloccato su WhatsApp. Disconnettere l''istanza corrente e collegarne una nuova con un nuovo numero di telefono, quindi autorizzare l''istanza utilizzando il pulsante Autorizza in Impostazioni azienda -> Notifiche.'
+        instance_sleep_mode: 'L''account è entrato in modalità sospensione. Lo stato è possibile quando il telefono è spento. Dopo aver acceso il telefono, potrebbero essere necessari fino a 5 minuti prima che l''account diventi operativo. Fino a quando il telefono non sarà acceso, i messaggi non verranno inviati.'
+        instance_yellow_сard: 'L''account è stato parzialmente o completamente sospeso dall''invio di messaggi a causa di attività di spamming. Disconnettere l''istanza corrente e collegarne una nuova con un nuovo numero di telefono, quindi autorizzare l''istanza utilizzando il pulsante Autorizza in Impostazioni azienda -> Notifiche.'
+    operations:
+      checkout: 'controllato l''auto, prenotazione #'
+      checkin: 'controllato in macchina, prenotazione #'
+      update_booking: 'aggiornato la prenotazione #'
+      delete_booking: 'cancellato la prenotazione #'
+      accept_booking: 'accettato la prenotazione #'
+      cancel_booking: 'annullato la prenotazione #'
+      prolong_booking: 'prolungata la prenotazione #'
+      create_payment: 'ha creato il pagamento #'
+      create_booking: 'creato una nuova prenotazione #'
+      create_not_processed_payment: 'ha creato il pagamento non elaborato n.'
+      processed_payment: 'effettuato un pagamento non elaborato n.'
+      get_cash: 'in entrata in contanti'
+      get_card_to_card: 'in arrivo da una scheda all''altra'
+      get_terminal: 'in entrata tramite terminale bancario'
+      get_entity: 'in entrata sul conto dell''entità'
+      give_cash: 'spesa in contanti'
+      give_card_to_card: 'spesa da carta a carta'
+      give_terminal: 'spesa tramite terminale bancario'
+      give_entity: 'spesa dal conto dell''ente'
+      get_client_balance: 'reintegro del saldo del cliente'
+      give_client_balance: 'spesa dal saldo del cliente'
+      external_give_cash: 'creato contante esterno in entrata alla cassa'
+      external_get_cash: 'creato pagamento in contanti esterno dalla cassa'
+      external_give_entity: 'creato contante esterno in entrata sul conto dell''entità'
+      external_get_entity: 'creato un pagamento in contanti esterno dal conto dell''entità'
+      to_company_account: 'ricarica della cassa aziendale dalla cassa personale'
+      from_company_account: 'ricarica della cassa personale dalla cassa aziendale, in contanti'
+      to_company_entity: 'ricaricato l''azienda è conto corrente dalla sua cassa'
+      from_company_entity: 'ricaricato la tua cassa dalla società è conto corrente'
+      get_from: 'ricevuto da'
+      counts_numbers: 'pagamento #'
+      change_count: 'pagamento modificata n.'
+      change_count_date: 'modifica creata in data da %{old} a %{new} pagamento n.'
+      change_count_category: 'tipo di pagamento modificato'
+      change_count_category_to: 'A'
+      remove_count: 'cancellato dalla base'
+      income_operation: 'in arrivo'
+      expences_operation: 'spese'
+      operation: 'transizione'
+      date_from: 'per'
+      on_sum: 'nella quantità di'
+      cash: 'in contanti'
+      terminal: 'terminale bancario'
+      entity: 'conto entità'
+      card_to_card: 'dalla carta dell''azienda'
+      card_to_card_2: 'carta dell''azienda'
+      correcting: "Rettifica pagamento #%{id}"
+      annulate: "Annullato"
+      create_annulate: "pagamento di storno creato #"
+      annulate_count: "il pagamento #%{id} è stato annullato"
+      decline_booking: "prenotazione rifiutata n."
+      update: "cambiato"
+      with: "da"
+      to: "A"
+      in_car: "nell'auto n."
+      destroy_car: "auto cancellata n."
+      activate_car: "auto attivata n."
+      deactivate_car: "vettura disattivata n."
+      destroy_client: "rimosso il cliente"
+      renew_booking_end_date: "Errore durante l'addebito della prenotazione %{booking_id}. Errore: %{error}"
+      periodic_payment_init_success: "L'inizializzazione del pagamento per la prenotazione %{booking_id} è avvenuta correttamente"
+      periodic_payment_init_bad: "Errore durante l'inizializzazione del pagamento per la prenotazione %{booking_id}. Errore: %{error}"
+      periodic_payment_charged_success: "Pagamento per la prenotazione %{booking_id} addebitato con successo"
+      periodic_payment_charged_bad: "Errore durante l'addebito della prenotazione %{booking_id}. Errore: %{error}"
+      deposit_returned: "Deposito per la prenotazione %{booking_id} rimborsato"
+    counts:
+      descriptions:
+        clean_count: 'Pagamento extra per lavaggio auto alla cassa della prenotazione #%{id}'
+        delivery_count: 'Pagamento extra per la consegna "check-in" al check-out della prenotazione #%{id}'
+        delivery_end_count: 'Pagamento extra per la consegna "alla cassa" alla cassa della prenotazione #%{id}'
+        additional_hours_count: 'Pagamento delle ore extra alla cassa della prenotazione #%{id}'
+        mileage_count: 'Pagamento del chilometraggio extra alla cassa della prenotazione #%{id}'
+        rent_count: 'Pagamento dell''affitto extra alla cassa della prenotazione #%{id}'
+        gas_count: 'Pagamento extra per il carburante alla cassa della prenotazione #%{id}'
+        equipment_count: 'Pagamento extra per l''attrezzatura al momento del pagamento della prenotazione #%{id}'
+        insurance_count: 'Pagamento extra per l''assicurazione al momento del pagamento della prenotazione #%{id}'
+        add_drivers_cost_count: 'Pagamento per conducenti extra al momento del pagamento della prenotazione #%{id}'
+        fine_count: 'Pagamento extra per multe alla cassa della prenotazione #%{id}'
+        damage_count: 'Pagamento extra per danni alla cassa della prenotazione #%{id}'
+        other_count: 'Altro pagamento extra alla cassa della prenotazione #%{id}'
+        deposit_count: 'Rimborso del deposito della prenotazione #%{id}'
+        get_from_cashbox: "preso dalla cassa"
+        give_to_cashbox: "mettere in cassa"
+        was: "era"
+        now: "Ora"
+        to_company_account: "all'account dell'entità"
+        from_company_account: "dall'account dell'entità"
+        to_own_account: "possedere una cassa"
+        from_own_account: "dalla propria cassa"
+        sell_car: "Vendo auto #%{id}"
+        payment_for_count: "Pagamento fattura, #%{id}"
+      save_count:
+        description: "Pagamento per la prenotazione #%{id}"
+      save_prolong:
+        description: "Proroga della prenotazione #%{id}"
+      save_debt:
+        description: "Pagamento del debito #%{id}"
+      fines_payment:
+        description: "Pagamento della multa #%{id}"
+      fine_compensation:
+        description: "Compensazione della multa #%{id}"
+      cashboxes:
+        delete_company_cashbox: "account aziendale eliminato %{name}"
+    bookings:
+      sources:
+        manual: 'Manuale'
+        site: 'sito web'
+        widget: 'aggeggio'
+    schedules:
+      remove: 'rimosso dal programma'
+      worker: 'impiegato numero'
+    custom:
+      company_name: "Buona macchina a noleggio"
+      country: "Portugal"
+      city: "Lisbon"
+      time_zone: "Europe/Lisbon"
+      booking_from_site: "Domanda di prenotazione dal sito web n."
+      booking_from_localrent: "Domanda di prenotazione dal sito LocalRent n."
+      branch: "Sede"
+      insurance_for_passengers: "Assicurazione per i passeggeri"
+    errors:
+      in_home: "I dipendenti non sono uguali sul server e sul client"
+    periodic_payments:
+      payment_success_title: "Pagamento dell'affitto addebitato con successo"
+      payment_bad_title: "Errore nell'addebito del pagamento dell'affitto"
+      deposit_payment_title: "Pagamento della caparra per la prenotazione"
+      payment_description: "Pagamento per i servizi di prenotazione"
+      add_card_description: "Collegamento di una carta a un account cliente"
+  admin_mailer:
+    have_cars_no_bookings: "Abbiamo notato che hai aggiunto auto al sistema RentProg, ma non hai creato alcuna prenotazione. Alcuni utenti hanno difficoltà a creare la prima prenotazione a causa del fatto che hanno aggiunto auto ma non le hanno attivate. Affinché l'auto diventi disponibile per la prenotazione, deve essere attivata. Per fare ciò, vai sulla scheda dell'auto, compila i dati richiesti e fai clic sul pulsante Attiva. Se hai ulteriori domande, puoi scrivere alla chat di supporto."
+    week_not_active: "Abbiamo notato che ti sei registrato al servizio RentProg, ma non hai ancora iniziato a utilizzare attivamente il programma. Comprendiamo che la formazione iniziale e la configurazione richiederanno più tempo, ma dopo aver impostato tutto, sarai in grado di sperimentare i reali vantaggi di lavorare in CRM, come più tempo libero e controllo remoto di tutti i processi. Se ci sono difficoltà, siamo pronti ad aiutare. Se hai ulteriori domande, puoi scrivere alla chat di supporto."
+    month_not_active: "Un mese fa ti sei registrato al servizio RentProg, ma non hai ancora iniziato a utilizzare attivamente il programma. Per favore dimmi a cosa è collegato? Hai bisogno di aiuto con la configurazione?"
+    active_but_week_not_active: "Hai iniziato a utilizzare attivamente il servizio RentProg e poi ti sei fermato. Dimmi per favore, qual è la ragione di questo? Siamo pronti ad assistervi nell'uso o a prendere in considerazione i vostri desideri al momento di finalizzare la funzionalità."
+    week_active: "Abbiamo notato che hai aggiunto auto al sistema RentProg e creato diverse prenotazioni. Ottimo, continua così! Ti ricordiamo le nostre utili funzionalità che potresti non conoscere: un modulo di prenotazione sul sito, invio di notifiche WhatsApp ai clienti, notifiche di nuove prenotazioni in Telegram e altro. Siamo pronti a dirvi di più su queste funzioni."
+  admin_whatsapp:
+    after_registration: "Ciao! Ti sei recentemente registrato con RentProg autonoleggio CRM. Mi chiamo Ivan, sono un project manager. Pronto ad aiutarti con il programma. Avete domande?"
+    have_cars_no_bookings: "Ciao! Abbiamo notato che hai aggiunto auto al sistema _RentProg_, ma non hai creato alcuna prenotazione. Alcuni utenti hanno difficoltà a creare la prima prenotazione a causa del fatto che hanno aggiunto auto ma non le hanno attivate. Affinché l'auto diventi disponibile per la prenotazione, deve essere attivata. Per farlo, vai sulla scheda dell'auto, inserisci i dati richiesti e clicca sul pulsante *Attiva*. Se hai altre domande, puoi scriverle in questa chat."
+    week_not_active: "Ciao! Abbiamo notato che ti sei registrato al servizio RentProg, ma non hai ancora iniziato a utilizzare attivamente il programma. Comprendiamo che la formazione iniziale e la configurazione richiederanno più tempo, ma dopo aver impostato tutto, sarai in grado di sperimentare i reali vantaggi di lavorare in CRM, come più tempo libero e controllo remoto di tutti i processi. Se ci sono difficoltà, siamo pronti ad aiutare."
+    month_not_active: "Ciao! Un mese fa ti sei registrato al servizio RentProg, ma non hai ancora iniziato a utilizzare attivamente il programma. Per favore dimmi a cosa è collegato? Hai bisogno di aiuto con la configurazione?"
+    week_active: "Abbiamo notato che hai aggiunto auto al sistema RentProg e creato diverse prenotazioni. Ottimo, continua così! Ti ricordiamo le nostre utili funzionalità che potresti non conoscere: un modulo di prenotazione sul sito, invio di notifiche WhatsApp ai clienti, notifiche di nuove prenotazioni in Telegram e altro. Siamo pronti a dirvi di più su queste funzioni."
+    active_but_week_not_active: "Ciao! Hai iniziato a utilizzare attivamente il servizio RentProg e poi ti sei fermato. Dimmi per favore, qual è la ragione di questo? Siamo pronti ad assistervi nell'uso o a prendere in considerazione i vostri desideri al momento di finalizzare la funzionalità."
+    start_payments: "Ciao! Hai aggiunto la sedicesima auto, ora stiamo iniziando a far pagare per l'utilizzo di RentProg secondo il piano tariffario. Ulteriori informazioni sulle tariffe sono disponibili sul sito web di RentProg. Se hai domande, siamo sempre pronti ad aiutarti."
+    reminder_block_company: "Ciao! Ti informiamo del blocco della tua azienda nel sistema RentProg. Motivo del blocco: saldo negativo. Si prega di ricaricare il saldo per continuare a utilizzare il servizio. Se hai domande, siamo sempre pronti ad aiutarti."
+  telegram_webhooks:
+    welcome: "Benvenuto su RentProgBot! Acquisisci familiarità con le funzioni del bot e provale in azione premendo il pulsante Menu."
+    hello: "Ciao"
+    hello_message: "Per utilizzare il nostro chat bot, salva il tuo chat_id: %{id} nel profilo utente del sistema RentProg."
+    user_not_found: "L'utente non è stato trovato"
+    user_not_found_full: "Utente non trovato! Salva il tuo chat_id: %{id} nel sistema RentProg nel tuo profilo utente."
+    save_id: "Salva"
+    checkin_today: "Fai il check-in oggi"
+    checkin_tomorrow: "Domani fai il check-in"
+    checkout_today: "Checkout oggi"
+    checkout_tomorrow: "Domani il check-out"
+    bookings_not_found: "Le prenotazioni non sono state trovate"
+    menu: "Menù"
+    number: "#"
+    dates: "date"
+    car: "auto"
+    client: "cliente"
+    checkin: "check-in"
+    checkout: "check-out"
+    responsible: "dipendente responsabile"
+    select_function: "Seleziona funzione"
+    tariffs: "Tariffe"
+    payment: "Pagamento"
+    payment_start: "Paga"
+    payment_info: "Rifornimento del saldo RentProg per un importo di %{sum} euro"
+    payment_start_info: "Fai clic sul pulsante Paga per iniziare a pagare."
+    link_to_payment: "Vai al pagamento"
+    enter_sum: "Inserisci l'importo"
+    payment_not_available: "Il pagamento non è disponibile"
+    bad_payment_sum: "Importo del pagamento non valido, ricominciare con /payment"
+    action_missing:
+      command: "Impossibile eseguire %{command}"
+    callback_query:
+      alert: "Questo è ALERT-T-T!!!"
+      no_alert: "Risposta semplice"
+    help:
+      info: "Comandi disponibili"
+      message: |
+        Comandi disponibili:
+         /start - Benvenuto
+         /menù - Menù
+      add_to_chat: |
+        Istruzioni per la ricezione delle notifiche nella chat generale dell'azienda.
+      add_to_chat_button: "Istruzioni"
+  daily_payment_desc: "Accesso a RentProg"
+  services:
+    antifreeze_renew: "Replacing antifreeze"
+    battery_renew: "Battery replacement"
+    brake_fluid_renew: "Replacing brake fluid"
+    cabin_filter_renew: "Replacing the cabin filter"
+    candles_renew: "Replacing spark plugs"
+    gas_filter_renew: "Replacing the fuel filter"
+    grm_renew: "Replacing the timing belt"
+    kpp_renew: "Changing the automatic transmission oil"
+    oil_renew: "Changing the engine oil"
+    gur_renew: "Replacing power steering fluid"
+    insurance: "Insurance"
+    diagnostic_card: "Technical inspection"
+  maintenance:
+    maintenance_reminder: "%{car_name}(%{code}) manutenzione necessaria: %{title}."
+    maintenance_needed: "Manutenzione necessaria"
+    payment_notify: "Promemoria di pagamento"
+  icalendar:
+    booking_summary: "Prenotazione %{car_name}"
+    booking_description: "Prenotazione %{car_name} dal %{start_date} al %{end_date}"
+    booking_location: "Luogo della prenotazione: %{location_start} - %{location_end}"
+    booking_id: "Prenotazione No. %{id}"
+    booking_start_date: "Data di inizio della prenotazione: %{start_date}"
+    booking_end_date: "Data di fine della prenotazione: %{end_date}"
+    booking_reminder: "Promemoria della prenotazione"
+    booking_reminder_message: "Prenotazione %{car_name} dal %{start_date} al %{end_date}"
+    booking_reminder_message_display: "Prenotazione %{car_name} dal %{start_date} al %{end_date}"
+    booking_summary_full: "Prenotazione %{car_name} No. %{id}"
+    booking_description_full: "Prenotazione %{car_name} No. %{id} dal %{start_date} al %{end_date}"
